@@ -1,0 +1,595 @@
+[v-cloak] {
+  display: none;
+}
+.common-config ul,
+.common-config li {
+  list-style: none;
+}
+.common-config .zf-dialog .el-input__inner {
+  width: 100%;
+}
+.common-config .os-select {
+  margin-left: 10px;
+}
+.common-config .os-select .os-group-img {
+  width: 36px;
+  height: 36px;
+}
+.common-config .os-select .el-input__prefix {
+  display: flex;
+  align-items: center;
+}
+.common-config .os-group-select {
+  margin-left: 0;
+}
+.common-config .os-group-select .el-input__inner {
+  padding-left: 50px;
+}
+.common-config .l-config {
+  margin-right: 380px;
+  width: 100%;
+  position: relative;
+  z-index: 10;
+  background: #fff;
+  padding: 0 20px;
+}
+.common-config .pro-tit {
+  line-height: 1;
+  color: #171725;
+  font-size: 28px;
+}
+.common-config .cycle {
+  display: flex;
+  flex-wrap: wrap;
+}
+.common-config .cycle .item {
+  min-width: 140px;
+  margin-right: 20px;
+  border: 1px solid #e6e7eb;
+  border-radius: 3px;
+  text-align: center;
+  padding: 11px 0;
+  font-size: 15px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  position: relative;
+}
+.common-config .cycle .item .name {
+  color: #1e2736;
+  margin-bottom: 10px;
+}
+.common-config .cycle .item .price {
+  color: #0058ff;
+}
+.common-config .common-box {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+.common-config .el-icon-check {
+  display: none;
+}
+.common-config .com-active .el-icon-check {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: #fff;
+  z-index: 10;
+}
+.common-config .com-active::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+  width: 0;
+  height: 0;
+  border-bottom: 24px solid #0058ff;
+  border-left: 24px solid transparent;
+}
+.common-config .el-slider__bar {
+  background: #0058ff;
+}
+.common-config .el-slider__button {
+  width: 12px;
+  height: 24px;
+  border: 0;
+  border-radius: 0;
+  background: #0058ff;
+  position: relative;
+}
+.common-config .el-slider__button:hover,
+.common-config .el-slider__button.hover,
+.common-config .el-slider__button.dragging {
+  transform: scale(1) !important;
+  transition: all 0s !important;
+}
+.common-config .el-slider__button::after {
+  content: "";
+  width: 1px;
+  height: 10px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+}
+.common-config .config-tit {
+  position: relative;
+  padding-left: 15px;
+  font-size: 18px;
+  color: #1e2736;
+  line-height: 1;
+  margin-bottom: 20px;
+}
+.common-config .config-tit::before {
+  content: "";
+  width: 3px;
+  height: 18px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  margin-top: -9px;
+  background: #0058ff;
+}
+.common-config .description {
+  padding: 20px;
+  border: 1px solid #e6e7eb;
+  border-radius: 3px;
+  margin-top: 40px;
+  line-height: 1.5;
+  color: #8692b0;
+  min-height: 240px;
+  box-sizing: border-box;
+  white-space: pre-wrap;
+}
+.common-config .config-way {
+  display: flex;
+  align-items: center;
+}
+.common-config .config-item {
+  margin-top: 60px;
+}
+.common-config .config-item .des {
+  font-size: 14px;
+  color: #8692b0;
+  margin-top: 10px;
+  line-height: 1.5;
+  white-space: pre-wrap;
+}
+.common-config .config-item .unit {
+  font-size: 15px;
+  color: #1e2736;
+  margin-left: 5px;
+}
+.common-config .config-item .slider {
+  display: flex;
+  align-items: center;
+}
+.common-config .config-item .slider .el-slider {
+  width: 434px;
+  margin: 0 30px;
+}
+.common-config .config-item .slider .el-input {
+  width: 70px;
+  margin-left: 20px;
+}
+.common-config .custom-config .el-input {
+  width: 320px;
+}
+.common-config .custom-config .el-input .el-input__inner {
+  height: 46px;
+  line-height: 46px;
+}
+.common-config .custom-config .el-textarea {
+  width: 320px;
+}
+.common-config .el-select input {
+  line-height: 46px;
+  height: 46px;
+  width: 320px;
+}
+.common-config .area-box .tit {
+  font-size: 16px;
+  color: #1e2736;
+  margin-bottom: 10px;
+}
+.common-config .area-box .country,
+.common-config .area-box .city {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+.common-config .area-box .country .item,
+.common-config .area-box .city .item {
+  width: 205px;
+  height: 52px;
+  line-height: 52px;
+  padding: 0 16px;
+  margin-bottom: 20px;
+  border: 1px solid #e6e7eb;
+  border-radius: 3px;
+  margin-right: 20px;
+  position: relative;
+  cursor: pointer;
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+.common-config .area-box .country .item img,
+.common-config .area-box .city .item img {
+  width: 30px;
+  height: 20px;
+  margin-right: 20px;
+}
+.common-config .area-box .country .item img,
+.common-config .area-box .city .item img,
+.common-config .area-box .country .item span,
+.common-config .area-box .city .item span {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 15px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.common-config .area-box .country .item span,
+.common-config .area-box .city .item span {
+  max-width: 70%;
+}
+.common-config .click-select {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -20px;
+}
+.common-config .click-select .item {
+  width: 255px;
+  line-height: 46px;
+  height: 46px;
+  border: 1px solid #e6e7eb;
+  border-radius: 3px;
+  margin-top: 20px;
+  text-align: center;
+  margin-right: 20px;
+  cursor: pointer;
+  position: relative;
+}
+.common-config .order-right {
+  width: 360px;
+  height: calc(100% - 140px);
+  box-shadow: 0 3px 12px rgba(52, 52, 90, 0.1);
+  border-radius: 3px;
+  padding: 10px 30px 30px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: fixed;
+  background: #fff;
+  right: 20px;
+  top: 138px;
+  overflow: hidden;
+  transition: all 0.3s;
+}
+.common-config .order-right.is-scroll {
+  top: 70px;
+  height: calc(100% - 120px);
+  overflow-y: scroll;
+}
+.common-config .order-right .subtotal {
+  display: flex;
+  justify-content: space-between;
+  line-height: 20px;
+  padding: 30px 0;
+  border-bottom: 1px solid #e6e7eb;
+}
+.common-config .order-right .right-title {
+  width: 100%;
+  font-size: 16px;
+  font-weight: bold;
+  color: #1e2736;
+  border-bottom: 1px solid #dcdcdc;
+  padding-bottom: 5px;
+}
+.common-config .order-right .right-country-os {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #dcdcdc;
+}
+.common-config .order-right .right-country-os .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #757575;
+}
+.common-config .order-right .right-country-os .row:not(:first-child) {
+  margin-top: 12px;
+}
+.common-config .order-right .order-right-item {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #dcdcdc;
+}
+.common-config .order-right .order-right-item .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #757575;
+}
+.common-config .order-right .order-right-item .row:not(:first-child) {
+  margin-top: 12px;
+}
+.common-config .order-right .order-right-item .row .del-add {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.common-config .order-right .order-right-item .row .del-add .del,
+.common-config .order-right .order-right-item .row .del-add .add {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #e6e7eb;
+  opacity: 1;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+.common-config .order-right .order-right-item .row .del-add .del.disabled,
+.common-config .order-right .order-right-item .row .del-add .add.disabled {
+  cursor: not-allowed;
+}
+.common-config .order-right .order-right-item .row .del-add .el-input__inner {
+  padding: 0;
+}
+.common-config .order-right .order-right-item .row .del-add .del {
+  margin-right: 4px;
+}
+.common-config .order-right .order-right-item .row .del-add .num {
+  width: 48px;
+  height: 32px;
+}
+.common-config .order-right .order-right-item .row .del-add .num .el-input {
+  height: 32px;
+  width: 48px;
+  display: flex;
+}
+.common-config .order-right .order-right-item .row .del-add .num .el-input__inner {
+  height: 32px;
+  width: 48px;
+}
+.common-config .order-right .order-right-item .row .del-add .add {
+  margin-left: 4px;
+}
+.common-config .order-right .order-right-footer {
+  padding-bottom: 16px;
+}
+.common-config .order-right .order-right-footer .footer-total {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.common-config .order-right .order-right-footer .footer-total .left {
+  color: #1e2736;
+}
+.common-config .order-right .order-right-footer .footer-total .right {
+  font-size: 28px;
+  font-family: Helvetica;
+  font-weight: bold;
+  color: #f0142f;
+  text-align: right;
+}
+.common-config .order-right .order-right-footer .footer-total .total-icon {
+  font-size: 20px !important;
+  color: #999 !important;
+  cursor: pointer;
+}
+.common-config .order-right .order-right-footer .footer-total .discount-box {
+  margin-top: 8px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  column-gap: 8px;
+  row-gap: 10px;
+}
+.common-config .order-right .order-right-footer .footer-total .discount-codeNumber {
+  cursor: pointer;
+  height: 32px;
+  line-height: 32px;
+  background: rgba(249, 149, 0, 0.2);
+  padding: 0 14px;
+  color: #f99600;
+  font-weight: bold;
+  font-size: 14px;
+}
+.common-config .order-right .order-right-footer .footer-code {
+  display: flex;
+  flex-direction: column;
+}
+.common-config .order-right .order-right-footer .footer-code .code-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 8px;
+}
+.common-config .order-right .order-right-footer .footer-code .code-main .left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #f99600;
+  cursor: pointer;
+}
+.common-config .order-right .order-right-footer .footer-code .code-main .left .btn-add {
+  width: 12px;
+  height: 12px;
+  border: 1px solid #f99600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 6px;
+  border-radius: 50%;
+}
+.common-config .order-right .order-right-footer .footer-code .code-main .right {
+  color: #f99600;
+}
+.common-config .order-right .order-right-footer .footer-code .code-detail {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8px;
+}
+.common-config .order-right .order-right-footer .footer-code .code-detail .code-detail-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  color: #4e5259;
+}
+.common-config .order-right .order-right-footer .footer-code .code-detail .code-detail-item .code {
+  font-weight: bold;
+  margin-right: 9px;
+}
+.common-config .order-right .order-right-footer .footer-code .code-detail .code-detail-item .num {
+  margin-right: 5px;
+}
+.common-config .order-right .order-right-footer .footer-code .code-detail .code-detail-item .btn {
+  font-size: 12px;
+  cursor: pointer;
+}
+.common-config .order-right .order-right-footer .read {
+  margin-top: 10px;
+}
+.common-config .order-right .order-right-footer .read a {
+  text-decoration: none;
+  color: #0058ff;
+}
+.common-config .order-right .order-right-footer .buy-btn {
+  width: 100%;
+  margin-top: 16px;
+}
+.common-config .order-right .info {
+  padding: 30px 0 20px;
+  border-bottom: 1px solid #e6e7eb;
+  max-height: 300px;
+  overflow-y: auto;
+}
+.common-config .order-right .info .des {
+  display: flex;
+  justify-content: space-between;
+  line-height: 1;
+  font-size: 14px;
+  color: #1e2736;
+  margin-bottom: 15px;
+}
+.common-config .order-right .info .des span {
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.common-config .order-right .info .name {
+  width: 30%;
+}
+.common-config .order-right .info .value {
+  width: 30%;
+  text-align: left;
+}
+.common-config .order-right .info .price {
+  width: 35%;
+  text-align: right;
+}
+.common-config .f-btn {
+  display: flex;
+  justify-content: space-between;
+}
+.common-config .f-btn .el-button {
+  line-height: 1;
+  padding: 0;
+  height: 44px;
+  border-radius: 4px;
+  width: 45%;
+}
+.common-config .f-btn .cart {
+  color: #0058ff;
+  border: 1px solid #0058ff;
+  background: transparent;
+}
+.common-config .f-btn .buy-btn {
+  background: #0058ff;
+  border: 1px solid #0058ff;
+  color: #fff;
+  width: 100%;
+  line-height: 43px;
+  height: 43px;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.option-label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.option-label .option-img {
+  width: 24px;
+  height: 24px;
+}
+.option-label .option-text {
+  margin-left: 10px;
+}
+/* 购物车弹窗 */
+.cartDialog {
+  width: 490px;
+  background: #fff;
+}
+.cartDialog .tit {
+  font-size: 28px;
+  color: #171725;
+}
+.cartDialog .el-dialog__body {
+  text-align: center;
+  line-height: 1;
+}
+.cartDialog .dialog-footer {
+  padding-bottom: 60px;
+  justify-content: center;
+}
+.cartDialog .dialog-footer .el-button {
+  width: 144px;
+  height: 46px;
+  border-radius: 4px;
+  text-align: center;
+  margin: 0 5px;
+}
+.cartDialog .dialog-footer .el-button span {
+  padding: 0;
+  font-size: 16px;
+}
+.cartDialog .dialog-footer .el-button:first-child {
+  background: #0058ff;
+  border: 1px solid #0058ff;
+  color: #fff;
+}
+.cartDialog .dialog-footer .el-button:last-child {
+  border: 1px solid #0058ff;
+  color: #0058ff;
+}
+.discount-pop {
+  white-space: nowrap;
+}
+.original-price {
+  text-decoration: line-through;
+  font-size: 20px;
+  font-weight: 500;
+  color: #999999;
+}
+.el-input-number {
+  width: auto !important;
+}

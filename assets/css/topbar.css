@@ -1,0 +1,226 @@
+.current_prcing .big {
+    font-family: DINAlternate-Bold;
+    font-size: 24px;
+    color: #ff502e;
+    line-height: 24px;
+    font-weight: 700;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.product-wrap-price .big>span {
+    display: block;
+    width: 100%;
+    float: right;
+    color: #e0ddd9!important;
+    font-size: 16px;
+}
+
+.product-wrap-price .big {
+    color: #F33E3E;
+}
+
+.firstgroup_box,
+.secondgroup_box {
+  min-height: 30px;
+  padding: 10px 20px;
+  background-color: #fff ;
+  box-shadow: 0 4px 15px 1px rgba(6, 75, 179, 0.06);
+  display: flex;
+  align-items: center;
+}
+
+.firstgroup_box .firstgroup_box_prov,
+.secondgroup_box .secondgroup_box_area {
+  color: #0064ff;
+  display: inline-block;
+  min-width: 60px;
+}
+
+.firstgroup_box .firstgroup_box_group,
+.secondgroup_box .secondgroup_box_group {
+  width: 100%;
+  /* display: grid;
+    grid-template-columns: repeat(auto-fit, 110px);
+    gap: 10px 0; */
+}
+
+.firstgroup_box .firstgroup_item,
+.secondgroup_box .secondgroup_item,
+.pro_box .pro_item {
+  height: 34px;
+  box-shadow: 0px 4px 15px 1px rgba(6, 75, 179, 0.06);
+  border-radius: 1px;
+  border: solid 1px #0064ff;
+  margin-left: -1px;
+  float: left;
+  margin-bottom: 3px;
+}
+
+.firstgroup_box .firstgroup_item.active,
+.firstgroup_box .firstgroup_item:hover,
+.secondgroup_box .secondgroup_item.active,
+.secondgroup_box .secondgroup_item:hover,
+.pro_box .pro_item.active,
+.pro_box .pro_item:hover {
+  background-color: #0064ff;
+  border-color: #0064ff;
+  box-shadow: 0 4px 15px 1px rgba(6, 75, 179, 0.06);
+  border-radius: 1px;
+  color: #fff;
+}
+.firstgroup_box a,
+.secondgroup_box a,
+.pro_box a,
+.firstgroup_box .firstgroup_item,
+.secondgroup_box .secondgroup_item,
+.pro_box .pro_item {
+  color: #0064ff;
+  min-width: 120px;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 12px;
+}
+.firstgroup_box a:hover,
+.secondgroup_box a:hover,
+.pro_box a:hover,
+.firstgroup_box .firstgroup_item:hover a,
+.secondgroup_box .secondgroup_item:hover a,
+.pro_box .pro_item:hover a {
+  color: #fff;
+}
+.product-wrap {}
+.product-wrap-box {
+border-radius: 4px;
+box-shadow: 0px 3px 10px 0px rgb(38 59 94 / 10%);
+transition: ease all 0.35s;
+margin-bottom: 2rem;
+padding: 2.5rem;
+background-color: #FFF;
+border: solid 1px #ffffff;
+transition: border 0.1s ease-in-out, color 0.1s ease-in-out;
+}
+
+.product-wrap-title {
+font-size: 22px;
+color: #111;
+font-weight: 600;
+width: 100%;
+}
+.product-wrap-price {
+}
+.product-wrap-price .big {
+font-size: 26px;
+}
+.product-wrap-price .won {
+color: #666;
+}
+.product-wrap-desc {
+font-size: 16px;
+margin: 0 0 2rem;
+padding: 1.5rem 0 0;
+list-style: none;
+border-top: 1px solid #EEE;
+}
+.product-wrap-desc li {
+display: flex;
+align-items: center;
+line-height: 30px;
+font-size: 1rem;
+}
+.product-wrap-desc li span {
+color: #666;
+padding-right: 20px;
+min-width: 65px;
+}
+.product-wrap-box .btn {
+display: block;
+padding: 0;
+line-height: 38px;
+}
+.product-wrap-box .btn-outofstock {
+background-color: #f0f1f3;
+}
+.page-section {
+padding-top: 60px;
+padding-bottom: 60px;
+position: relative;
+}
+.page-recommend {
+background-color: #f7f8fa;
+}
+.page-recommend .c-media {
+min-height: 260px;
+margin-bottom: 2rem;
+}
+.page-recommend .c-media .c-media-body {
+margin-top: 20px;
+}
+.page-recommend .c-media .c-media-heading {
+color: #000;
+font-size: 20px;
+}
+.page-recommend .c-media .c-media-info {
+margin-top: 1rem;
+margin-bottom: 0;
+font-size: 16px;
+}
+.faq-area .item-collapse {
+font-size: 18px;
+color: #676767;
+margin-top: 22px;
+}
+.faq-area .item-collapse > li {
+border-bottom: 1px solid #e5e5e5;
+}
+.faq-area .item-collapse .collapse-item {
+position: relative;
+}
+.faq-area .item-collapse .collapse-header {
+padding: 22px;
+cursor: pointer;
+color: #141414;
+}
+.faq-area .item-collapse .collapsed.collapse-header {
+background-color: transparent;
+}
+.faq-area .item-collapse .collapse-header {
+background-color: #f6fafd;
+}
+.gt-active .gt-collapse-content {
+background-color: #f6fafd;
+}
+.faq-area .item-collapse .icon.q {
+background-color: #1d7abc;
+}
+.faq-area .item-collapse .icon.a {
+background-color: #6c737d;
+}
+.faq-area .item-collapse .icon {
+position: absolute;
+display: inline-block;
+width: 26px;
+height: 26px;
+text-align: center;
+color: #fff;
+border-radius: 50%;
+}
+.faq-area .item-collapse .text {
+margin-left: 46px;
+}
+.faq-area .item-collapse .collapse-content {
+padding: 0 22px 30px;
+background-color: #f6fafd;
+}
+.collapsing {
+transition: height .15s ease-in-out;
+}
+.product-wrap-box:hover{
+color: #0064ff;
+border: solid 1px #0064ff;
+}
