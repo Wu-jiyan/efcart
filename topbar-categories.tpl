@@ -12,11 +12,11 @@
 .nav-tabs-custom .nav-item .nav-link.active {
   color: #0064ff;
 }
-.qxy_beizhu {
+.idcef_tip {
 background-color: rgb(56, 25, 8);
 color: rgb(254, 99, 75) !important;
 }
-.qxy_beizhu {
+.idcef_tip {
 background-color: rgba(252, 241, 235, 1);
 color: rgba(254, 95, 71, 1) !important;
 margin-right: 2px;
