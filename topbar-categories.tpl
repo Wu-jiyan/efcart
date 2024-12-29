@@ -141,7 +141,7 @@ display: none !important;
 }
 </style>
 <link rel="stylesheet" href="/themes/cart/efcart/assets/fonts/iconfont.css?v={$Ver}">
-<script src="//cloud.idcef.com/themes/cart/efcart/assets/js/jquery.min.js"></script>
+<script src="//www.11tl.cn/themes/cart/efcart/assets/js/jquery.min.js"></script>
 <script src="../themes/cart/efcart/assets/js/jquery-confirm.min.js"></script>
 <style>
 .sales {
@@ -283,7 +283,7 @@ $(document).ready(function() {
 {foreach $first.second as $index2=>$secondItem}
 {php}$tags = explode('|', $secondItem[tagline]);{/php}
 {php}$secondItemParts = explode('|', $secondItem[name]);{/php}
-<a class="dropdown-item waves-effect" href="/cart?fid={$first.id}&gid={$secondItem.id}{if $Get.site}&site={$Get.site}{/if}" style="{if $secondItem.id == $Think.get.gid || (!$Think.get.gid && $index2==0 && ($first.id==$Think.get.fid || (!$Think.get.fid && $index==0)))}color: #fff; background-color: #2662f9;{else}color: #000;{/if}">{if $secondItemParts[1]}<img src="https://cloud.idcef.com/upload/common/country/{$secondItemParts.0}.png"> {$secondItemParts.1}{else/}{$secondItem.name}{/if}{if $secondItem.tagline }<font class="item-tip bg-{$tags.0}">{$tags.1}</font>{if $tags.2 }<font class="item-tip bg-{$tags.2}">{$tags.3}</font>{if $tags.4 }<font class="item-tip bg-{$tags.4}">{$tags.5}</font>{/if}{/if}{/if}</a>
+<a class="dropdown-item waves-effect" href="/cart?fid={$first.id}&gid={$secondItem.id}{if $Get.site}&site={$Get.site}{/if}" style="{if $secondItem.id == $Think.get.gid || (!$Think.get.gid && $index2==0 && ($first.id==$Think.get.fid || (!$Think.get.fid && $index==0)))}color: #fff; background-color: #2662f9;{else}color: #000;{/if}">{if $secondItemParts[1]}<img src="/upload/common/country/{$secondItemParts.0}.png"> {$secondItemParts.1}{else/}{$secondItem.name}{/if}{if $secondItem.tagline }<font class="item-tip bg-{$tags.0}">{$tags.1}</font>{if $tags.2 }<font class="item-tip bg-{$tags.2}">{$tags.3}</font>{if $tags.4 }<font class="item-tip bg-{$tags.4}">{$tags.5}</font>{/if}{/if}{/if}</a>
 {/foreach}
 </div>
 </div>
@@ -298,7 +298,7 @@ $(document).ready(function() {
 {php}$tags = explode('|', $secondItem[tagline]);{/php}
 {if $secondItem.id == $Think.get.gid || (!$Think.get.gid && $index==0)}
 <div class="seconditem_container">
-<a style="color:#fff;" class="secondgroup_item waves-effect pointer active" href="/cart?fid={$cart_first_id}&gid={$secondItem.id}{if $Get.site}&site={$Get.site}{/if}">{if $secondItemParts[1]}<img src="https://cloud.idcef.com/upload/common/country/{$secondItemParts.0}.png"> {$secondItemParts.1}{else/}{$secondItem.name}{/if}
+<a style="color:#fff;" class="secondgroup_item waves-effect pointer active" href="/cart?fid={$cart_first_id}&gid={$secondItem.id}{if $Get.site}&site={$Get.site}{/if}">{if $secondItemParts[1]}<img src="/upload/common/country/{$secondItemParts.0}.png"> {$secondItemParts.1}{else/}{$secondItem.name}{/if}
 {if $secondItem.tagline }
 <font class="item-tip bg-{$tags.0}">{$tags.1}</font>
 {if $tags.2 }
@@ -313,7 +313,7 @@ $(document).ready(function() {
 {assign name="cart_gid" value="$secondItem.id" /} 
 {else/}
 <div class="seconditem_container">
-<a class="secondgroup_item waves-effect pointer" href="/cart?fid={$cart_first_id}&gid={$secondItem.id}{if $Get.site}&site={$Get.site}{/if}">{if $secondItemParts[1]}<img src="https://cloud.idcef.com/upload/common/country/{$secondItemParts.0}.png"> {$secondItemParts.1}{else/}{$secondItem.name}{/if}
+<a class="secondgroup_item waves-effect pointer" href="/cart?fid={$cart_first_id}&gid={$secondItem.id}{if $Get.site}&site={$Get.site}{/if}">{if $secondItemParts[1]}<img src="/upload/common/country/{$secondItemParts.0}.png"> {$secondItemParts.1}{else/}{$secondItem.name}{/if}
 {if $secondItem.tagline }
 <font class="item-tip bg-{$tags.0}">{$tags.1}</font>
 {if $tags.2 }
