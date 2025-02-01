@@ -1,4 +1,4 @@
-{include file="cart/efcart/topbar-categories"}
+{include file="/cart/efcart/topbar-categories"}
 <div class="row">
 {if condition="empty($Cart.products) neq true" } 
 {foreach $Cart.products as $list}
